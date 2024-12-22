@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600&family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Generate a
+        <h1 id="heading">Generate a
             <br> 
             <span id="green-text">strong password</span>
         </h1>
-        <p>Stop using weak passwords</p>
+        <p id="sub-heading">Stop using weak passwords</p>
 
         <form id="submit-char">
             <input type="text" id="text-input" placeholder="10">
             <button type="submit" id="submit-button">Generate Password</button>
         </form>
+        <p id="password"></p>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
