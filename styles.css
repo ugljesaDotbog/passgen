@@ -21,7 +21,7 @@ body {
 
 .container {
    background-color: var(--grey-800);
-   width:700px;
+   max-width:700px;
    padding: 20px;
    box-sizing: border-box;
    margin: 0 auto;
@@ -69,5 +69,25 @@ body {
     padding: 12px;
     border-radius: 6px;
     color: var(--white)
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;  
+        padding: 15px; 
+        box-sizing: border-box;
+    }
+
+    #heading {
+        font-size: 30px;  
+    }
+
+    #sub-heading {
+        font-size: 18px; 
+    }
+
+    #text-input, #submit-button {
+        width: fit-content;
+    }
 }
 
