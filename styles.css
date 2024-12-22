@@ -62,3 +62,12 @@ body {
     cursor: pointer;
 }
 
+#password {
+    background-color: var(--grey-700);
+    width: fit-content;
+    box-sizing: content-box;
+    padding: 12px;
+    border-radius: 6px;
+    color: var(--white)
+}
+
